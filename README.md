@@ -4,6 +4,7 @@ An advanced, lightweight C++17 Windows-native emulator for the **ESP32-S3**, imp
 
 ---
 
+Demo video:
 [![Watch the demo video](https://img.youtube.com/vi/dKPxLus1tC4/0.jpg)](https://www.youtube.com/watch?v=dKPxLus1tC4)
 
 ---

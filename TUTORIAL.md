@@ -4,6 +4,7 @@ Welcome to the development tutorial! This guide covers how the emulator function
 
 ---
 
+Demo video:
 [![Watch the demo video](https://img.youtube.com/vi/dKPxLus1tC4/0.jpg)](https://www.youtube.com/watch?v=dKPxLus1tC4)
 
 ---
