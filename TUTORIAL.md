@@ -4,6 +4,10 @@ Welcome to the development tutorial! This guide covers how the emulator function
 
 ---
 
+[![Watch the demo video](https://img.youtube.com/vi/dKPxLus1tC4/0.jpg)](https://www.youtube.com/watch?v=dKPxLus1tC4)
+
+---
+
 ## 💻 1. Getting Started & Environment Setup
 
 The ESP32-S3 emulator compiles as a standard, modern C++17 console application on Windows. 
