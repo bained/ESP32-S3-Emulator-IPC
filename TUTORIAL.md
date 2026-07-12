@@ -42,6 +42,19 @@ The emulator and proxy communicate using a simple binary protocol consisting of 
 
 ---
 
+## 📋 Sensor Inventory
+
+For comprehensive end-to-end testing, the default `main.cpp` application maps various physical sensors to virtual pins. Below is the detailed breakdown of all registered and simulated sensors.
+
+| Sensor Name | Mapped Pin | Protocol (Values Sent) | Function & Behavior | How to Trigger |
+| :--- | :---: | :--- | :--- | :--- |
+| **PIR Motion Sensor** | `Pin 4` | `2` (HIGH), `3` (LOW) | Triggers dim light to Full HIGH for 10 seconds on motion. | Type **`P`** to detect motion; **`O`** to clear. |
+| **Multi-click Button** | `Pin 6` | `0` (LOW), `1` (HIGH) | Single click toggles light; double-click sets DIM/Standby mode. | Type **`B`** to simulate push-release click. |
+| **Magnetic Reed Switch** | `Pin 5` | `0` (LOW), `1` (HIGH) | Available logic mapping for contact magnet alerts. | Type **`M`** for Magnet near; **`N`** for Magnet away. |
+| **Thermostat Temp Sensor** | `Pin 4` | `0` - `4095` (12-bit ADC) | Available analog control map for 4-stage automated cooling stages. | Type any integer **`0`** to **`4095`** to set level. |
+
+---
+
 ## 🧪 3. Step-by-Step Testing Guide
 
 Follow this step-by-step guide to run the live Smart Light Controller simulation.
