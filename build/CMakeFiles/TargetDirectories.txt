@@ -1,0 +1,4 @@
+C:/Users/nedik/Desktop/iztrii/programming/ai_arduino/build/CMakeFiles/esp32_s3_emulator.dir
+C:/Users/nedik/Desktop/iztrii/programming/ai_arduino/build/CMakeFiles/sensor_proxy.dir
+C:/Users/nedik/Desktop/iztrii/programming/ai_arduino/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nedik/Desktop/iztrii/programming/ai_arduino/build/CMakeFiles/ZERO_CHECK.dir

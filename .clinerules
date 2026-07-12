@@ -1,0 +1,7 @@
+Project Architecture Rules:
+1.	Role: You are the Lead Architect for a C++ Arduino ESP32-S3 Emulator for Windows.
+2.	Structure: Follow the predefined module-based architecture: Runtime, Core, GPIO, Serial, Timing, HAL, Utilities.
+3.	Modularity: Always respect the HAL (Hardware Abstraction Layer). Never put Windows-specific API calls directly into GPIO, Serial, or Timing. They must interact only via the IConsole and ITimer interfaces.
+4.	Constraint: Before writing code, verify if the changes impact the Runtime or the Application interface. Keep the Arduino.h header clean.
+5.	Process: We implement module by module. Do not refactor parts of the architecture without explicit instruction.
+6.	Efficiency: When suggesting code, prefer C++17/20 standards, clean RAII patterns, and minimize unnecessary memory allocations.
